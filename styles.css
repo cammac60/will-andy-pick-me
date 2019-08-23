@@ -10,3 +10,96 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+header {
+  text-align: center;
+  font-size: 56px;
+  font-family: sans-serif;
+  color: #2B4E80;
+  margin-top: 20px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#textbox {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 45%;
+  background-color: #E6ECF4;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "Open Sans";
+}
+
+#inputbox {
+  margin-top: 20px;
+  text-align: center;
+  height: 35px;
+}
+
+#submission {
+  margin-top: 5px;
+  height: 35px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  color: white;
+  background-color: #607AA0;
+}
+
+#submission:hover {
+  background-color: #1C3455;
+}
+
+#question {
+  font-size: 20px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#answer {
+  font-size: 20px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#eight-ball {
+  height: 35%;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+}
+
+#clear {
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 80px;
+  background-color: #D0CDCD;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+img {
+  max-height: 450px;
+}
